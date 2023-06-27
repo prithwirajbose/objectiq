@@ -1,0 +1,47 @@
+{
+    "name": "objectiq",
+    "version": "1.0.0",
+    "description": "Object Image recognition application",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "babel index.ts --out-file dist/html-login-widget.js",
+        "babel-version": "babel --version",
+        "bundle": "webpack"
+    },
+    "dependencies": {
+        "canvas": "2.11.2",
+        "express": "4.18.2",
+        "fs-extra": "11.1.1",
+        "lodash": "latest",
+        "ws": "8.13.0",
+        "@tensorflow/tfjs-node": "4.8.0",
+        "@tensorflow/tfjs-backend-cpu": "4.8.0",
+        "@tensorflow/tfjs-backend-webgl": "4.8.0",
+        "@tensorflow-models/coco-ssd": "2.2.2",
+        "@tensorflow-models/mobilenet": "2.1.0",
+        "sqlite3": "5.1.6"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/prithwirajbose/objectiq.git"
+    },
+    "keywords": [
+        "image",
+        "recognition",
+        "object",
+        "recognition",
+        "ai",
+        "ml",
+        "machine",
+        "learning",
+        "tensorflow",
+        "app"
+    ],
+    "author": "Prithwiraj Bose <sribasu@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/prithwirajbose/objectiq/issues"
+    },
+    "homepage": "https://github.com/prithwirajbose/objectiq#readme"
+}
